@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parque Canino</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff00e6;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ff00d4;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #1abc9c;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .producto {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .producto img {
+            width: 48%;
+            margin-right: 4%;
+            border-radius: 8px;
+        }
+
+        .producto-info {
+            width: 48%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(238, 17, 17, 0.1);
+        }
+
+        .producto-info h2 {
+            color: #000000;
+        }
+
+        .producto-info p {
+            line-height: 1.6;
+            color: #0068fa;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #6e59da;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #ff0000;
+            color: white;
+        }
+
+        td {
+            background-color: #ecf0f1;
+        }
+
+        .marquesina {
+            background-color: #00ff26;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .mapa {
+            margin-top: 30px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+
+        footer {
+            background-color: #ff00aa;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Parque Canino</h1>
+</header>
+<nav>
+    <a href="#Recomendaciones">Recomendaciones</a>
+    <a href="#caracteristicas">Características</a>
+    <a href="#TikTok">Tik Tok</a>
+    <a href="#contacto">Ubicación</a>
+    <a href="https://www.twitter.com" target="_blank">Reglas</a>
+    <a href="https://www.linkedin.com" target="_blank">Horario</a>
+</nav>
+
+<div class="container">
+    <!-- Sección Producto -->
+    <section id="producto" class="producto">
+        <div class="producto-info">
+            <h2>Ven y aprovecha de nuestras promociones, validas todo el mes de marzo</h2>
+            <p>En nuestras instalaciones tu mascota podran disfrutar, de un lugar para comer croquetas y premios, de competencias contra otras mascotas, de un amplio jardin, de una piscina, de un set fotografico, juegos, entre otras.</p>
+            <table>
+                <tr>
+                    <th>Horas</th>
+                    <th>Precios</th>
+                </tr>
+                <tr>
+                    <td>1 Hora</td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td>2 Horas</td>
+                    <td>$350</td>
+                </tr>
+                <tr>
+                    <td>3 Horas</td>
+                    <td>$500</td>
+                </tr>
+                <tr>
+                    <td>4 Horas</td>
+                    <td>$650</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Sección Características -->
+    <section id="caracteristicas">
+        <h2>Características Principales</h2>
+        <ul>
+            <li>Juegos</li>
+            <li>Actividades</li>
+            <li>Interacion con otras mascotas</li>
+            <li>Premios</li>
+            <li>Competencias</li>
+        </ul>
+    </section>
+<div>
+    <img src="parquecanino.webp" alt="300">
+</div>
+    <!-- Sección Video -->
+    <section id="video">
+        <h2>¡Descubre mas de nuestras instalaciones!</h2>
+        <div>
+            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" title="Video Gadget 3000" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Marquesina -->
+    <div class="marquesina">
+        ¡Aprovecha un 20% de descuento en la compra de un costal de croquetas! ¡Aparta tu lugar!
+    </div>
+
+    <!-- Sección de Ubicación -->
+    <section id="contacto" class="mapa">
+        <h2>Ven con tu mascota y conoce nuestras instalaciones</h2>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3517.347237174537!2d-105.4940405247902!3d28.16635340509815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86eb15fad56e75d5%3A0x1d0bf1b5dd1399de!2sColegio%20De%20Bachilleres%20Plantel%2013!5e0!3m2!1ses!2smx!4v1741959623076!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; Emprendimiento de Fernanda Y Fatima 2025.</p>
+</footer>
+
+</body>
+</html>
